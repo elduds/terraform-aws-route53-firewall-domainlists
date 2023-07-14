@@ -1,4 +1,4 @@
-# terraform-aws-route53-firwall-domainlists
+# terraform_aws_route53resolver_firewall_domainlists
 
 ## Introduction
 Terraform module to provide named lookups of AWS Route53 Resolver DNS Firewall Managed Domain List IDs
