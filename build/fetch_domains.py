@@ -20,6 +20,5 @@ for region in all_regions:
         if domain_list['ManagedOwnerName'] == 'Route 53 Resolver DNS Firewall':
             all_lists[region][domain_list['Name']] = domain_list['Id']
 
-
 with open('new_all_lists.json', 'w', encoding='utf-8') as outfile:
     json.dump(all_lists, outfile, indent=4)
