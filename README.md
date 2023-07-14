@@ -12,7 +12,7 @@ provider "aws" {
 
 module "route53resolver-firewall-domainlists" {
   source  = "elduds/route53resolver-firewall-domainlists/aws"
-  version = "0.1.3"
+  version = ">= 0.1.6"
 }
 
 data "aws_region" "current" {}
@@ -35,4 +35,4 @@ resource "aws_route53_resolver_firewall_rule" "block_malware_domains" {
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 # Maintainers:
 
-- Luke Dudney
+- elduds https://github.com/elduds
